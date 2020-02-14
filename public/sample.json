@@ -1,0 +1,32 @@
+[
+
+    {
+                  "userId":"rahul.kumar@rsicorp.local",
+                  "name":"Rahul Kumar",
+                  "employeeId":"1234",
+                  "noOfStoresVisted":5,
+                  "lastLoginTime":"25-Jun-2018 12:00:00",
+                  "lastActivityTime":"25-Jun-2018 12:00:00",
+                  "gpsEnabled":true
+                  },
+                  {
+                  "userId":"sandesh.chandankhede@rsicorp.local",
+                  "name":"Sandesh Chandankhede",
+                  "employeeId":"1235",
+                  "noOfStoresVisted":5,
+                  "lastLoginTime":"25-Jun-2018 12:00:00",
+                  "lastActivityTime":"25-Jun-2018 12:00:00",
+                  "gpsEnabled":true
+                  },
+                  {
+                  "userId":"anand.dhamdhere@rsicorp.local",
+                  "name":"Anand Dhamdhere",
+                  "employeeId":"1236",
+                  "noOfStoresVisted":5,
+                  "lastLoginTime":"25-Jun-2018 12:00:00",
+                  "lastActivityTime":"25-Jun-2018 12:00:00",
+                  "gpsEnabled":false
+                  }
+  
+         ]
+        

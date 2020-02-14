@@ -1,0 +1,354 @@
+{
+    "responseCode": "200",
+    "responseMessage": "OK",
+    "userTerritoryData": {
+        "role": "General Manager",
+        "name": "atesting3.target@engusers.rsicorp.local",
+        "userId": "atesting3.target@engusers.rsicorp.local",
+        "userList": [
+            {
+                "role": "Region Manager1",
+                "name": "test0006.threem@engusers.rsicorp.local",
+                "userId": "test0006.threem@engusers.rsicorp.local",
+                "userList": [
+                    {
+                        "role": "Area Manager11",
+                        "name": "ATesting1.TARGET@engusers.rsicorp.local",
+                        "userId": "ATesting1.TARGET@engusers.rsicorp.local",
+                        "userList": [
+                            {
+                                "role": "Field User11-1",
+                                "name": "bonny.mathew@rsicorp.local",
+                                "userId": "bonny.mathew@rsicorp.local"
+                            }
+                        ]
+                    },
+                    {
+                        "role": "Area Manager12",
+                        "name": "rahul.kumar@rsicorp.local",
+                        "userId": "rahul.kumar@rsicorp.local",
+                        "userList": [
+                            {
+                                "role": "Field User12-1",
+                                "name": "sandesh.chandankhede@rsicorp.local",
+                                "userId": "sandesh.chandankhede@rsicorp.local"
+                            },
+                            {
+                                "role": "Field User12-2",
+                                "name": "anand.dhamdhere@rsicorp.local",
+                                "userId": "anand.dhamdhere@rsicorp.local"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "role": "Region Manager2",
+                "name": "test0006.threem@engusers.rsicorp.local",
+                "userId": "test0006.threem@engusers.rsicorp.local",
+                "userList": [
+                    {
+                        "role": "Area Manager21",
+                        "name": "ATesting1.TARGET@engusers.rsicorp.local",
+                        "userId": "ATesting1.TARGET@engusers.rsicorp.local",
+                        "userList": [
+                            {
+                                "role": "Field User21-1",
+                                "name": "21-1bonny.mathew@rsicorp.local",
+                                "userId": "bonny.mathew@rsicorp.local"
+                            }
+                        ]
+                    },
+                    {
+                        "role": "Area Manager22",
+                        "name": "rahul.kumar@rsicorp.local",
+                        "userId": "rahul.kumar@rsicorp.local",
+                        "userList": [
+                            {
+                                "role": "Field User22-1",
+                                "name": "22-1sandesh.chandankhede@rsicorp.local",
+                                "userId": "sandesh.chandankhede@rsicorp.local"
+                            },
+                            {
+                                "role": "Field User22-2",
+                                "name": "22-2anand.dhamdhere@rsicorp.local",
+                                "userId": "anand.dhamdhere@rsicorp.local"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "role": "Region Manager3",
+                "name": "test0006.threem@engusers.rsicorp.local",
+                "userId": "test0006.threem@engusers.rsicorp.local",
+                "userList": [
+                    {
+                        "role": "Area Manager31",
+                        "name": "ATesting1.TARGET@engusers.rsicorp.local",
+                        "userId": "ATesting1.TARGET@engusers.rsicorp.local",
+                        "userList": [
+                            {
+                                "role": "Field User31-1",
+                                "name": "bonny.mathew@rsicorp.local",
+                                "userId": "bonny.mathew@rsicorp.local"
+                            }
+                        ]
+                    },
+                    {
+                        "role": "Area Manager32",
+                        "name": "rahul.kumar@rsicorp.local",
+                        "userId": "rahul.kumar@rsicorp.local",
+                        "userList": [
+                            {
+                                "role": "Field User32-1",
+                                "name": "sandesh.chandankhede@rsicorp.local",
+                                "userId": "sandesh.chandankhede@rsicorp.local"
+                            },
+                            {
+                                "role": "Field User32-2",
+                                "name": "anand.dhamdhere@rsicorp.local",
+                                "userId": "anand.dhamdhere@rsicorp.local"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "userActivityList": [
+        {
+            "userId": "Sandesh.Chandankhede@rsicorp.local",
+            "noOfStoresVisted": 13,
+            "lastLoginTime": "2020-02-12 05:42:38.89",
+            "lastActvityTime": "2020-01-28 11:34:24.0",
+            "gpsEnabled": true,
+            "longitude": "73.9481263",
+            "latitude": "18.5533404"
+        },
+        {
+            "userId": "Anand.Dhamdhere@rsicorp.local",
+            "noOfStoresVisted": 10,
+            "lastLoginTime": "2020-02-12 05:42:38.89",
+            "lastActvityTime": "2020-01-28 20:07:43.0",
+            "gpsEnabled": false,
+            "longitude": "0.0",
+            "latitude": "0.0"
+        },
+        {
+            "userId": "bonny.mathew@rsicorp.local",
+            "noOfStoresVisted": 20,
+            "lastLoginTime": "2020-02-12 05:42:38.89",
+            "lastActvityTime": "2020-01-28 20:07:43.0",
+            "gpsEnabled": true,
+            "longitude": "0.0",
+            "latitude": "0.0"
+        },
+        {
+            "userId": "Anand.Dhamdhere@rsicorp.local",
+            "noOfStoresVisted": 10,
+            "lastLoginTime": "2020-02-12 05:42:38.89",
+            "lastActvityTime": "2020-01-28 20:07:43.0",
+            "gpsEnabled": false,
+            "longitude": "0.0",
+            "latitude": "0.0"
+        },
+        {
+            "userId": "21-1bonny.mathew@rsicorp.local",
+            "noOfStoresVisted": 10,
+            "lastLoginTime": "2020-02-12 05:42:38.89",
+            "lastActvityTime": "2020-01-28 20:07:43.0",
+            "gpsEnabled": false,
+            "longitude": "0.0",
+            "latitude": "0.0"
+        },
+        {
+            "userId": "22-1sandesh.chandankhede@rsicorp.local",
+            "noOfStoresVisted": 10,
+            "lastLoginTime": "2020-02-12 05:42:38.89",
+            "lastActvityTime": "2020-01-28 20:07:43.0",
+            "gpsEnabled": false,
+            "longitude": "0.0",
+            "latitude": "0.0"
+        },
+        {
+            "userId": "22-2anand.dhamdhere@rsicorp.local",
+            "noOfStoresVisted": 10,
+            "lastLoginTime": "2020-02-12 05:42:38.89",
+            "lastActvityTime": "2020-01-28 20:07:43.0",
+            "gpsEnabled": false,
+            "longitude": "0.0",
+            "latitude": "0.0"
+        }
+    ],
+    "userLocationList": [
+        {
+            "locationId": "2113",
+            "locationName": "BICESTER 2",
+            "locationOwner": "Tesco",
+            "latitude": "51.27466866",
+            "longitude": "-2.775544106",
+            "fieldUser": "anand.dhamdhere@rsicorp.local",
+            "areaManager": "rahul.kumar@rsicorp.local",
+            "regionManger": "test0006.threem@engusers.rsicorp.local",
+            "locationType": "Territory",
+            "vistedToday": false
+        },
+        {
+            "locationId": "19017",
+            "locationName": "happy",
+            "locationOwner": "Tesco",
+            "latitude": "18.5533099",
+            "longitude": "73.9481319",
+            "fieldUser": "anand.dhamdhere@rsicorp.local",
+            "areaManager": "rahul.kumar@rsicorp.local",
+            "regionManger": "test0006.threem@engusers.rsicorp.local",
+            "locationType": "Territory",
+            "vistedToday": false
+        },
+        {
+            "locationId": "00066",
+            "locationName": "Barnstable Store",
+            "locationOwner": "Tesco",
+            "latitude": "41.64799499511719",
+            "longitude": "-70.42718505859375",
+            "fieldUser": "anand.dhamdhere@rsicorp.local",
+            "areaManager": "rahul.kumar@rsicorp.local",
+            "regionManger": "test0006.threem@engusers.rsicorp.local",
+            "locationType": "Territory",
+            "vistedToday": false
+        },
+        {
+            "locationId": "20336",
+            "locationName": "t",
+            "locationOwner": "Morrisons",
+            "latitude": "18.553303",
+            "longitude": "73.9481048",
+            "fieldUser": "sandesh.chandankhede@rsicorp.local",
+            "areaManager": "rahul.kumar@rsicorp.local",
+            "regionManger": "test0006.threem@engusers.rsicorp.local",
+            "locationType": "Territory",
+            "vistedToday": false
+        },
+        {
+            "locationId": "19020",
+            "locationName": "t",
+            "locationOwner": "Tesco",
+            "latitude": "18.5533099",
+            "longitude": "73.9481319",
+            "fieldUser": "sandesh.chandankhede@rsicorp.local",
+            "areaManager": "rahul.kumar@rsicorp.local",
+            "regionManger": "test0006.threem@engusers.rsicorp.local",
+            "locationType": "Territory",
+            "vistedToday": false
+        },
+        {
+            "locationId": "2002",
+            "locationName": "ABERGELE",
+            "locationOwner": "Tesco",
+            "latitude": "51.27466866",
+            "longitude": "-2.775544106",
+            "fieldUser": "bonny.mathew@rsicorp.local",
+            "areaManager": "ATesting1.TARGET@engusers.rsicorp.local",
+            "regionManger": "test0006.threem@engusers.rsicorp.local",
+            "locationType": "Territory",
+            "vistedToday": false
+        },
+        {
+            "locationId": "00066",
+            "locationName": "Barnstable Store",
+            "locationOwner": "Tesco",
+            "latitude": "41.64799499511719",
+            "longitude": "-70.42718505859375",
+            "fieldUser": "sandesh.chandankhede@rsicorp.local",
+            "areaManager": "rahul.kumar@rsicorp.local",
+            "regionManger": "test0006.threem@engusers.rsicorp.local",
+            "locationType": "Scheduled",
+            "vistedToday": false
+        },
+        {
+            "locationId": "19017",
+            "locationName": "happy",
+            "locationOwner": "Tesco",
+            "latitude": "18.5533099",
+            "longitude": "73.9481319",
+            "fieldUser": "anand.dhamdhere@rsicorp.local",
+            "areaManager": "rahul.kumar@rsicorp.local",
+            "regionManger": "test0006.threem@engusers.rsicorp.local",
+            "locationType": "Scheduled",
+            "vistedToday": false
+        },
+        {
+            "locationId": "19020",
+            "locationName": "t",
+            "locationOwner": "Tesco",
+            "latitude": "18.5533099",
+            "longitude": "73.9481319",
+            "fieldUser": "anand.dhamdhere@rsicorp.local",
+            "areaManager": "rahul.kumar@rsicorp.local",
+            "regionManger": "test0006.threem@engusers.rsicorp.local",
+            "locationType": "Scheduled",
+            "vistedToday": false
+        },
+        {
+            "locationId": "19020",
+            "locationName": "t",
+            "locationOwner": "Tesco",
+            "latitude": "18.5533099",
+            "longitude": "73.9481319",
+            "fieldUser": "sandesh.chandankhede@rsicorp.local",
+            "areaManager": "rahul.kumar@rsicorp.local",
+            "regionManger": "test0006.threem@engusers.rsicorp.local",
+            "locationType": "Scheduled",
+            "vistedToday": false
+        },
+        {
+            "locationId": "20336",
+            "locationName": "t",
+            "locationOwner": "Morrisons",
+            "latitude": "18.553303",
+            "longitude": "73.9481048",
+            "fieldUser": "anand.dhamdhere@rsicorp.local",
+            "areaManager": "rahul.kumar@rsicorp.local",
+            "regionManger": "test0006.threem@engusers.rsicorp.local",
+            "locationType": "Scheduled",
+            "vistedToday": false
+        },
+        {
+            "locationId": "20336",
+            "locationName": "t",
+            "locationOwner": "Morrisons",
+            "latitude": "18.553303",
+            "longitude": "73.9481048",
+            "fieldUser": "sandesh.chandankhede@rsicorp.local",
+            "areaManager": "rahul.kumar@rsicorp.local",
+            "regionManger": "test0006.threem@engusers.rsicorp.local",
+            "locationType": "Scheduled",
+            "vistedToday": false
+        },
+        {
+            "locationId": "20358",
+            "locationName": "Mumbai ",
+            "locationOwner": "Asda",
+            "latitude": "18.5532644",
+            "longitude": "73.948162",
+            "fieldUser": "sandesh.chandankhede@rsicorp.local",
+            "areaManager": "rahul.kumar@rsicorp.local",
+            "regionManger": "test0006.threem@engusers.rsicorp.local",
+            "locationType": "Scheduled",
+            "vistedToday": false
+        },
+        {
+            "locationId": "2113",
+            "locationName": "BICESTER 2",
+            "locationOwner": "Tesco",
+            "latitude": "51.27466866",
+            "longitude": "-2.775544106",
+            "fieldUser": "sandesh.chandankhede@rsicorp.local",
+            "areaManager": "rahul.kumar@rsicorp.local",
+            "regionManger": "test0006.threem@engusers.rsicorp.local",
+            "locationType": "Scheduled",
+            "vistedToday": false
+        }
+    ]
+}

@@ -1,0 +1,120 @@
+{
+ "role":"GM",
+  "id": "id",
+  "name":"name",
+  "userList":
+          [
+              {
+             "role":"RM",
+               "id": "rm1",
+               "name":"rm1name",
+                 "userList":
+                 [
+                       {
+                       "role":"AM",
+                          "id": "am1",
+                        "name":"am1name",
+                         "userList":
+                          [
+                             {
+                               "role":"FR",
+                             "id": "fr1",
+                                "name":"fr1name",
+                                "userList":null
+                            } ,                        
+                               {
+                                "role":"FR",
+                                 "id": "fr2",
+                                 "name":"fr2name",
+                                 "userList":null
+                                    
+                             }
+                                                                       
+                                    
+        ]
+      },
+
+      {
+        "role":"AM",
+           "id": "am2",
+         "name":"am2name",
+          "userList":
+           [
+              {
+                "role":"FR",
+              "id": "fr3",
+                 "name":"fr3name",
+                 "userList":null
+             } ,                        
+                {
+                 "role":"FR",
+                  "id": "fr4",
+                  "name":"fr4name",
+                  "userList":null
+                     
+              }
+                                                        
+                     
+]
+}
+    ]
+                                 
+              },
+              {
+                "role":"RM",
+                  "id": "rm2",
+                  "name":"rm2name",
+                    "userList":
+                    [
+                          {
+                          "role":"AM",
+                             "id": "am11",
+                           "name":"am11name",
+                            "userList":
+                             [
+                                {
+                                  "role":"FR",
+                                "id": "fr11",
+                                   "name":"fr11name",
+                                   "userList":null
+                               } ,                        
+                                  {
+                                   "role":"FR",
+                                    "id": "fr22",
+                                    "name":"fr22name",
+                                    "userList":null
+                                       
+                                }
+                                                                          
+                                       
+           ]
+         },
+   
+         {
+           "role":"AM",
+              "id": "am22",
+            "name":"am22name",
+             "userList":
+              [
+                 {
+                   "role":"FR",
+                 "id": "fr33",
+                    "name":"fr33name",
+                    "userList":null
+                } ,                        
+                   {
+                    "role":"FR",
+                     "id": "fr44",
+                     "name":"fr44name",
+                     "userList":null
+                        
+                 }
+                                                           
+                        
+   ]
+   }
+       ]
+                                    
+                 }]
+    }
+    
