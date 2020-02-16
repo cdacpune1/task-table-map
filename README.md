@@ -22,3 +22,4 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+https://front.id/en/articles/vuetify-achieve-multiple-filtering-data-table-component
