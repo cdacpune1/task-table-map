@@ -8,9 +8,9 @@
               v-if="renderArray"
               :items="renderArray"
               label="RegionManager"
-              @change="onManagerChange"
+              @change="onRegionManagerChange"
               solo
-              item-text="role"
+              item-text="userId"
             >
             </v-select>
           </v-flex>
@@ -19,9 +19,9 @@
               v-if="renderArray"
               :items="managerArray"
               label="AreaManager"
-              @change="onAreaChange"
+              @change="onAreaManagerChange"
               solo
-              item-text="role"
+              item-text="userId"
             >
             </v-select>
           </v-flex>
@@ -30,7 +30,7 @@
               v-if="renderArray"
               label="FieldUser"
               :items="userArray"
-              item-text="role"
+              item-text="userId"
               solo
             >
             </v-select>
@@ -43,8 +43,10 @@
         <v-card>
           <v-data-table
             :headers="headers"
-            :items="renderArray"
-            v-if="renderArray"
+            :items="tableArray"
+            v-if="tableArray.length "
+            item-key="userId"
+           
           >
             <template v-slot:item.gpsEnabled>
               <v-icon v-if="(gpsEnabled = !gpsEnabled)" small class="mr-2">
@@ -62,13 +64,12 @@
 </template>
 
 <script>
-// import { mapState } from "vuex";
-
 export default {
   data() {
     return {
       gpsEnabled: false,
       userActivityList: [],
+      // activityArray: [],
       headers: [
         { text: "UserId", value: "userId" },
         {
@@ -89,7 +90,8 @@ export default {
         }
       ],
       managerArray: [],
-      userArray: []
+      userArray: [],
+      tableArray: []
     };
   },
 
@@ -99,100 +101,56 @@ export default {
 
   computed: {
     renderArray() {
-      if (this.$store.getters.getRenderArray && this.$store.getters.getRenderArray.userTerritoryData && this.$store.getters.getRenderArray.userTerritoryData.userList) {
+      if (
+        this.$store.getters.getRenderArray &&
+        this.$store.getters.getRenderArray.userTerritoryData &&
+        this.$store.getters.getRenderArray.userTerritoryData.userList
+      ) {
         return this.$store.getters.getRenderArray.userTerritoryData.userList;
-
-      } else {
-        return null;
+      }else{
+        return null
       }
     }
-   
+//     ,
+//     activityArray(){
+// if(this.$store.getters.getRenderArray.userActivityList){
+//   return this.$store.getters.getRenderArray.userActivityList;
+// }
+//     }
+    // getData() {
+    //   return this.$store.getters.rows;
+    //   // console.log(this.$store.getters.rows);
+    // }
   },
   methods: {
-    onManagerChange(val) {
-      console.log(this.managerArray);
-      this.managerArray = this.renderArray
-        .filter(item => {
-          if (item.role == val) {
-            // console.log(item);
-
-            return item.userList;
-          }
-        })
-        .map(item => item.userList)[0];
+    onRegionManagerChange(val) {
+      const manager = this.renderArray.find(obj => obj.userId == val);
+      this.managerArray = manager.userList;
       // console.log(this.managerArray);
     },
-    onAreaChange(val1) {
-      // console.log(typeof(val1));
-      this.userArray = this.managerArray
-        .filter(item1 => {
-          if (item1.role == val1) {
-            // console.log(item1);
-            return item1.userList;
-          }
-        })
-        .map(item1 => item1.userList)[0];
+    onAreaManagerChange(managerId) {
+      const areaManager = this.managerArray.find(
+        val => val.userId == managerId
+      );
 
-      // console.log(this.userArray);
+      this.userArray = areaManager.userList;
+      const userAct = this.userArray.map(managerId => managerId.userId);
+      console.log(userAct, "act");
+
+      this.activityArray = this.$store.getters.getRenderArray.userActivityList;
+
+      console.log(this.activityArray);
+
+      this.tableArray = this.activityArray.filter(objNew => {
+        if (userAct.indexOf(objNew.userId) > -1) {
+          return true;
+        } else {
+          return false;
+        }
+      });
+      console.log(this.tableArray, "tableArray");
     }
-
-    
   }
 };
 </script>
 <style scoped></style>
-
-<!--<template>
-  <div class="about">
-    <h1 class="subheading grey--text">This is an about page</h1>
-    
-<div class="text-center">
-    <v-pagination
-      v-model="page"
-      :length="6"
-    ></v-pagination>
-  </div>
-<!-- <v-btn class="hidden-xs-and-down">clickme</v-btn> -->
-<!-- <v-btn class="hidden-xs-and-up">click_1</v-btn> -->
-
-<!-- <v-btn class="hidden-sm-only">click_1</v-btn> -->
-<!-- <v-container class="my-5 ">
-  <v-layout row wrap >
-    <v-flex  xs12 md6 >
-<v-btn block outlined  class="primary my-5">1</v-btn>
-    </v-flex>
-     <v-flex xs4 md2 >
-<v-btn  block outlined class="primary my-5">2</v-btn>
-    </v-flex>
-     <v-flex xs4 md2 >
-<v-btn  block outlined class="primary my-5">2</v-btn>
-    </v-flex>
-     <v-flex xs4 md2 >
-<v-btn  block outlined class="primary my-5">2</v-btn>
-    </v-flex>
-  </v-layout>
-  <v-layout row wrap justify-space-between>
-    <v-flex xs4 md3>
-<v-btn outlined block class="success">1</v-btn>
-    </v-flex>
-     <v-flex xs4 md3>
-<v-btn outlined block class="success">2</v-btn>
-    </v-flex>
-  </v-layout>
-
-
-</v-container> -->
-<!-- 
-  </div>
-</template>
-<script>
-  export default {
-    data () {
-      return {
-        page: 1,
-      }
-    },
-  }
-</script>
-
- -->
